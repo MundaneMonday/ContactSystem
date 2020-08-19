@@ -1,0 +1,5 @@
+The first two milestones has taught me how to create several useful functions for purposes such as clearing input buffer, returning an integer, and checking an integer if it is within range. These auxiliary functions are organized in a separate c file from the c file which has functions for attaining address, numbers, and name.
+
+The findContactIndex was helpful for checking through the contact array and comparing each contact string with the user's cell number using the strcmp function. This helps me a lot when I'm adding, deleting, or updating a contact. The getTenDigitPhone helped me check if each character of the user's phone number is numeric. It also checks if the string length of the phone number is 10 characters long(excluding the null terminator). 
+
+In the interest of time, I wouldn't include it since we will have to change scanf and printf into fscanf and fprintf. 
